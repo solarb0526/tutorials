@@ -1,8 +1,10 @@
 */bin/*
+bin/
 
 *.class
 
 # Package Files #
+*.jar
 *.war
 *.ear
 
@@ -21,11 +23,14 @@
 *.iws
 out/
 
+# VSCode
+.vscode/
+
 # Mac
 .DS_Store
 
 # Maven
-log/
+log/*
 target/
 
 # Gradle
@@ -34,7 +39,6 @@ target/
 spring-openid/src/main/resources/application.properties
 .recommenders/
 /spring-hibernate4/nbproject/
-spring-security-openid/src/main/resources/application.properties
 
 spring-all/*.log
 
@@ -61,6 +65,7 @@ core-java-io/target_link.txt
 core-java/src/main/java/com/baeldung/manifest/MANIFEST.MF
 ethereum/logs/
 jmeter/src/main/resources/*-JMeter.csv
+ninja/devDb.mv.db
 
 **/node_modules/
 **/dist
@@ -68,8 +73,6 @@ jmeter/src/main/resources/*-JMeter.csv
 **/out-tsc
 **/nbproject/
 **/nb-configuration.xml
-core-scala/.cache-main
-core-scala/.cache-tests
 
 
 persistence-modules/hibernate5/transaction.log
@@ -78,3 +81,13 @@ jta/transaction-logs/
 software-security/sql-injection-samples/derby.log
 spring-soap/src/main/java/com/baeldung/springsoap/gen/
 /report-*.json
+transaction.log
+*-shell.log
+
+apache-cxf/cxf-aegis/baeldung.xml
+testing-modules/report-*.json
+
+libraries-2/*.db
+
+# SDKMan
+.sdkmanrc

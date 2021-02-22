@@ -1,10 +1,10 @@
 package com.baeldung.jmapper;
 
-import java.time.LocalDate;
-import java.time.Period;
-
 import com.googlecode.jmapper.annotations.JMap;
 import com.googlecode.jmapper.annotations.JMapConversion;
+
+import java.time.LocalDate;
+import java.time.Period;
 
 public class UserDto {
     

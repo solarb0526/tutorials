@@ -1,7 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
     <modelVersion>4.0.0</modelVersion>
-    <groupId>com.baeldung</groupId>
     <artifactId>rest-assured</artifactId>
     <version>1.0</version>
     <name>rest-assured</name>
@@ -102,6 +102,7 @@
         <dependency>
             <groupId>joda-time</groupId>
             <artifactId>joda-time</artifactId>
+            <version>${joda-time.version}</version>
         </dependency>
 
         <dependency>
@@ -148,24 +149,9 @@
             <version>${wiremock.version}</version>
         </dependency>
         <dependency>
-            <groupId>com.github.fge</groupId>
-            <artifactId>json-schema-validator</artifactId>
-            <version>${github-json-schema-validator.version}</version>
-        </dependency>
-        <dependency>
-            <groupId>com.github.fge</groupId>
-            <artifactId>json-schema-core</artifactId>
-            <version>${json-schema-core.version}</version>
-        </dependency>
-        <dependency>
             <groupId>commons-collections</groupId>
             <artifactId>commons-collections</artifactId>
             <version>${commons-collections.version}</version>
-        </dependency>
-        
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
         </dependency>
 
         <!-- Rest Assured Dependencies-->
@@ -194,14 +180,12 @@
 
     <properties>
         <guava.version>18.0</guava.version>
-        <jackson.version>2.9.7</jackson.version>
         <jackson-coreutils.version>1.8</jackson-coreutils.version>
         <guava.version>19.0</guava.version>
         <servlet-api.version>2.5</servlet-api.version>
         <javax.mail.version>1.4.7</javax.mail.version>
         <jetty.version>9.4.0.v20161208</jetty.version>
 
-        <commons-lang3.version>3.5</commons-lang3.version>
         <commons-collections.version>3.2.2</commons-collections.version>
 
         <httpcore.version>4.4.5</httpcore.version>
@@ -215,12 +199,6 @@
         <groovy.version>2.4.7</groovy.version>
         <wiremock.version>2.4.1</wiremock.version>
 
-        <github-json-schema-validator.version>2.2.6</github-json-schema-validator.version>
-        <json-schema-core.version>1.2.5</json-schema-core.version>
-
-        <rest-assured.version>3.0.1</rest-assured.version>
-        <rest-assured-json-schema-validator.version>3.0.1</rest-assured-json-schema-validator.version>
-        
         <scribejava.version>2.5.3</scribejava.version>
     </properties>
 

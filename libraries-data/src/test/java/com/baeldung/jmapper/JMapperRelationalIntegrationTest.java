@@ -1,16 +1,15 @@
 package com.baeldung.jmapper;
 
-import static com.googlecode.jmapper.api.JMapperAPI.attribute;
-import static com.googlecode.jmapper.api.JMapperAPI.mappedClass;
-import static org.junit.Assert.assertEquals;
-
-import org.junit.Test;
-
 import com.baeldung.jmapper.relational.User;
 import com.baeldung.jmapper.relational.UserDto1;
 import com.baeldung.jmapper.relational.UserDto2;
 import com.googlecode.jmapper.RelationalJMapper;
 import com.googlecode.jmapper.api.JMapperAPI;
+import org.junit.Test;
+
+import static com.googlecode.jmapper.api.JMapperAPI.attribute;
+import static com.googlecode.jmapper.api.JMapperAPI.mappedClass;
+import static org.junit.Assert.assertEquals;
 
 public class JMapperRelationalIntegrationTest {
 
@@ -56,8 +55,8 @@ public class JMapperRelationalIntegrationTest {
     public void givenUser_whenUseApi_thenConverted(){
         JMapperAPI jmapperApi = new JMapperAPI() 
         .add(mappedClass(User.class)
-            .add(attribute("id").value("id").targetClasses(UserDto1.class,UserDto2.class))
-            .add(attribute("email").targetAttributes("username","email").targetClasses(UserDto1.class,UserDto2.class)) )
+            .add(attribute("id").value("id").targetClasses(UserDto1.class, UserDto2.class))
+            .add(attribute("email").targetAttributes("username","email").targetClasses(UserDto1.class, UserDto2.class)) )
          ;
         RelationalJMapper<User> relationalMapper = new RelationalJMapper<>(User.class,jmapperApi);
         

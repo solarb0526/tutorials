@@ -1,16 +1,15 @@
-## Spring REST Example Project
+## Spring 5
 
-### The Course
-The "REST With Spring" Classes: http://bit.ly/restwithspring
+This module contains articles about Spring 5
 
 ### Relevant Articles
 
-- [Concurrent Test Execution in Spring 5](http://www.baeldung.com/spring-5-concurrent-tests)
-- [Spring 5 Functional Bean Registration](http://www.baeldung.com/spring-5-functional-beans)
-- [The SpringJUnitConfig and SpringJUnitWebConfig Annotations in Spring 5](http://www.baeldung.com/spring-5-junit-config)
-- [Spring 5 Testing with @EnabledIf Annotation](http://www.baeldung.com/spring-5-enabledIf)
-- [Introduction to Spring REST Docs](http://www.baeldung.com/spring-rest-docs)
-- [Spring ResponseStatusException](http://www.baeldung.com/spring-response-status-exception)
-- [Spring Assert Statements](http://www.baeldung.com/spring-assert)
+- [Spring 5 Functional Bean Registration](https://www.baeldung.com/spring-5-functional-beans)
+- [The SpringJUnitConfig and SpringJUnitWebConfig Annotations in Spring 5](https://www.baeldung.com/spring-5-junit-config)
+- [Introduction to Spring REST Docs](https://www.baeldung.com/spring-rest-docs)
+- [Spring ResponseStatusException](https://www.baeldung.com/spring-response-status-exception)
+- [Spring Assert Statements](https://www.baeldung.com/spring-assert)
+- [Difference between \<context:annotation-config> vs \<context:component-scan>](https://www.baeldung.com/spring-contextannotation-contextcomponentscan)
+- [Finding the Spring Version](https://www.baeldung.com/spring-find-version)
+- [Spring 5 Testing with @EnabledIf Annotation](https://www.baeldung.com/spring-5-enabledIf)
 - [Configuring a Hikari Connection Pool with Spring Boot](https://www.baeldung.com/spring-boot-hikari)
-

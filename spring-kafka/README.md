@@ -1,10 +1,13 @@
+## Spring Kafka
+
+This module contains articles about Spring with Kafka
+
 ### Relevant articles
 
-- [Intro to Apache Kafka with Spring](http://www.baeldung.com/spring-kafka)
+- [Intro to Apache Kafka with Spring](https://www.baeldung.com/spring-kafka)
+- [Testing Kafka and Spring Boot](https://www.baeldung.com/spring-boot-kafka-testing)
 
-
-
-# Spring Kafka
+### Intro
 
 This is a simple Spring Boot app to demonstrate sending and receiving of messages in Kafka using spring-kafka.
 
